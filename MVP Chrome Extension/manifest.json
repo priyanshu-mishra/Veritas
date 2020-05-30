@@ -1,6 +1,6 @@
 {
     "name" : "Bias Finder",
-    "version" : "0.0001",
+    "version" : "0.0.0.1",
     "description": "Find other sources with different biases",
     "manifest_version": 2,
     "permissions": [
