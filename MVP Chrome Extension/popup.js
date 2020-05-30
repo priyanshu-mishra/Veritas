@@ -1,6 +1,36 @@
-// On Load
+// Variables
+
 website = document.querySelector(".web-change");
+analysis = ["<span style = 'font-weight:bold'>Left:  </span>"+
+"These media sources are moderately to strongly biased toward liberal causes through story selection and/or political affiliation.  They may utilize strong loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes), publish misleading reports and omit reporting of information that may damage liberal causes. Some sources in this category may be untrustworthy.",
+
+"<span style = 'font-weight:bold'>Left-Center: </span>"+
+"These media sources have a slight to moderate liberal bias.  They often publish factual information that utilizes loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes) to favor liberal causes.  These sources are generally trustworthy for information, but may require further investigation.",
+
+"<span style = 'font-weight:bold'>Center: </span>"+
+"These sources have minimal bias and use very few loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes).  The reporting is factual and usually sourced.  These are the most credible media sources.",
+
+"<span style = 'font-weight:bold'>Right-Center: </span>"+
+"These media sources are slightly to moderately conservative in bias. They often publish factual information that utilizes loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes) to favor conservative causes. These sources are generally trustworthy for information, but may require further investigation. ",
+
+"<span style = 'font-weight:bold'>Right: </span>"+
+"These media sources are moderately to strongly biased toward conservative causes through story selection and/or political affiliation. They may utilize strong loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes), publish misleading reports and omit reporting of information that may damage conservative causes. Some sources in this category may be untrustworthy.",
+]
+
+
+
+// On Load
 website.innerHTML = "Starting...";
+
+
+
+
+
+
+
+
+
+
 
 {
   buttons = document.querySelectorAll(".toggle-page");
@@ -46,7 +76,12 @@ function classifyThis(url){
 chrome.tabs.query({active: true, lastFocusedWindow: true}, tabs => {
   n = classifyThis(tabs[0].url);
   if (n != null) {
-    document.getElementsByClassName("links")[n+2].classList.toggle("toggle-page");
+  	//--------------------------------------------------------------------------------------------------------------
+  	document.querySelector(".descript").innerHTML = analysis[n+2];
+  	console.log(analysis[n+2])
+  	console.log("reached!");
+    // document.getElementsByClassName("links")[n+2].classList.toggle("toggle-page");
+
   }
 });
 
