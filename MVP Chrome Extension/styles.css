@@ -1,58 +1,36 @@
 body {
-    width: 300px;
-    padding: 0px 2px 1px;
+  width: 300px;
+  padding: 0px 2px 1px;
 }
-
-/* .dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;} */
 
 .biases-links{
-    display:flex;
-    justify-content: space-evenly;
-    
+  display:flex;
+  justify-content: space-evenly;
+  
 }
 
 .links{
-    float:left;
-    filter: grayscale(100%);
-    transition:0.5s;
-    /* border: 1px red solid;   */
-    padding: 8px;
+  float:left;
+  filter: grayscale(100%);
+  transition:0.5s;
+  /* border: 1px red solid;   */
+  padding: 8px;
 }
 
 .links:hover{
-    filter: none;
-    transition:0.5s;
+  filter: grayscale(25%);
+  transition:0.5s;
+}
+
+.toggle-page{
+filter:none;
+}
+
+
+.toggle-unusable{
+filter: blur(100px);
+}
+
+.toggle-unusable:hover{
+filter: blur(100px);
 }

@@ -4,18 +4,22 @@
     "description": "Find other sources with different biases",
     "manifest_version": 2,
     "permissions": [
-        "tabs",
-        "activeTab",
-        "https://www.reddit.com/",
-        "http://*/*", 
-        "https://*/*"
+        "tabs"
      ],
      "icons": { "16": "icons/icon16.png",
         "48": "icons/icon48.png"
     },
     "browser_action": {
         "default_popup": "popup.html"
-    }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": ["dom.js"]
+        }
+    ]
 }
 
 
