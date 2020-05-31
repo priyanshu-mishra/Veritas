@@ -22,16 +22,6 @@ analysis = ["<span style = 'font-weight:bold'>Left:  </span>"+
 // On Load
 website.innerHTML = "Starting...";
 
-
-
-
-
-
-
-
-
-
-
 {
   buttons = document.querySelectorAll(".toggle-page");
 
@@ -40,6 +30,7 @@ website.innerHTML = "Starting...";
       buttons[i].classList.toggle("toggle-unusable");
   }
 }
+
 
 // Self Classification
 
@@ -76,10 +67,7 @@ function classifyThis(url){
 chrome.tabs.query({active: true, lastFocusedWindow: true}, tabs => {
   n = classifyThis(tabs[0].url);
   if (n != null) {
-  	//--------------------------------------------------------------------------------------------------------------
   	document.querySelector(".descript").innerHTML = analysis[n+2];
-  	// console.log(analysis[n+2])
-  	// console.log("reached!");
     document.getElementsByClassName("links")[n+2].classList.toggle("toggle-page");
 
   }
