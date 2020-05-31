@@ -135,9 +135,9 @@ async function getLink(query, party){
     .then( res => res.json() )
     .then(data => (theLinks = data["items"]));
     // .then(data => (theLink = data["items"][0].link));
-  
-
-    if (theLinks.length < 1) {
+    
+    
+    if (theLinks==undefined || theLinks.length < 1) {
       console.log("No results");
       return -1;
     } else {
