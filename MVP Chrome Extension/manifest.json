@@ -1,7 +1,7 @@
 {
     "name" : "Veritas",
     "version" : "0.0.0.1",
-    "description": "Find other sources with different biases",
+    "description": "The Veritas Chrome extension flags and compares politically-biased news coverage.",
     "manifest_version": 2,
     "permissions": [
         "activeTab"
