@@ -11,7 +11,7 @@ The internet should a way to help users familiarize and engage themselves with o
 
 You can access more information about our Chrome Extension by using the following links: 
 
-[Landing Page]: <https://ss11077.wixsite.com/veritas>
+[Landing Page](https://ss11077.wixsite.com/veritas)
 
 [Demo Video](https://www.loom.com/share/0055e8f9b29c4257ae892e96767030b1)
 
