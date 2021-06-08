@@ -9,9 +9,10 @@ We live in a world with rampant partisanship which is also reflected on the inte
 
 The internet should a way to help users familiarize and engage themselves with opposing ideas in a safe manner. Unfortunately, this is not our reality - online comment threads often turn into hostile wit contests, and most content out there is laced with some political messaging. Veritas can help change that by allowing users to switch between news reporting on a political spectrum in real-time, thereby facilitating easier comparison between the wording-tones adopted by news websites. Our hope is that Veritas can help the internet play its part in helping individuals arrive at more educated political opinions.
 
+You can access more information about our Chrome Extension by using the following links: 
 
-Chrome Extension <https://chrome.google.com/webstore/detail/veritas/felccolfnfeolcgopnmnnpijlhkfcbpm?utm_source=gmail>
+[Landing Page]: <https://ss11077.wixsite.com/veritas>
 
-Demo Video <https://www.loom.com/share/0055e8f9b29c4257ae892e96767030b1>
+[Demo Video](https://www.loom.com/share/0055e8f9b29c4257ae892e96767030b1)
 
-Landing Page <https://ss11077.wixsite.com/veritas>
+[Chrome Extension](https://chrome.google.com/webstore/detail/veritas/felccolfnfeolcgopnmnnpijlhkfcbpm?utm_source=gmail)
